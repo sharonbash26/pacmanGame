@@ -24,6 +24,6 @@ function getRandomColor() {
     return color
 }
 function playSound(fileName) {
-    var sound = new Audio(`/${fileName}.wav`)
+    var sound = new Audio(`music/${fileName}.wav`)
     sound.play()
 }
